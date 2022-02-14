@@ -25,3 +25,21 @@
 #home form{
     opacity: 0.85;
 }
+.explore{
+    background-color:#333333 ;
+}
+#explore a{
+    border-color: white;
+    color: white;
+}
+#explore a:hover{
+    background-color:#8f6f6f34 !important;
+
+}
+#explore .fas{
+    background-color: #333;
+    color:white;
+}
+.explore img{
+    max-width: 90%;
+}
