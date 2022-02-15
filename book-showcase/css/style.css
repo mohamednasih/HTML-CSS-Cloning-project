@@ -33,6 +33,22 @@
 #home a:hover{
     background-color: #6c757d;
 }
+#subscribe{
+    background-color:#343A40 ;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+#subscribe input{
+    
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+#subscribe button{
+    background-color: #4893A2;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    color: white;
+}
 @media (max-width: 745px) {
     #home{
      
