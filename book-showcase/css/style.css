@@ -1,11 +1,44 @@
 .navbar{
-    opacity: 0.8;
     font-size: 1.5rem;
+    opacity: 0.9;
     
 }
 .navbar-brand{
     font-size: 1.4rem;
+    opacity: 0.8;
 }
 .logo{
     max-width: 4rem;
+}
+#home{
+    background-image:url(../img/mountains.jpg);
+    min-height: 110%;
+    margin-top: 7.5rem;
+}
+.blue-background{
+    background-color:rgba(50, 146, 166, 0.8);
+    min-height: 110%;
+    
+}
+#home h1{
+    font-size: 6.5rem;
+}
+#home p{
+    font-size: 2rem;
+}
+#home a{
+    font-size: 2rem;
+}
+#home a:hover{
+    background-color: #6c757d;
+}
+@media (max-width: 745px) {
+
+    #home h1{
+        font-size: 3.5rem;
+        padding-top: 5rem;
+    }
+    #home p{
+        font-size: 1.5rem;
+    }
 }
