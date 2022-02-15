@@ -1,0 +1,11 @@
+.navbar{
+    opacity: 0.8;
+    font-size: 1.5rem;
+    
+}
+.navbar-brand{
+    font-size: 1.4rem;
+}
+.logo{
+    max-width: 4rem;
+}
