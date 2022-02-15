@@ -12,16 +12,17 @@
 }
 #home{
     background-image:url(../img/mountains.jpg);
-    min-height: 110%;
-    margin-top: 7.5rem;
+    min-height: 700px;
+    margin-top: 7rem;
+    
 }
 .blue-background{
     background-color:rgba(50, 146, 166, 0.8);
-    min-height: 110%;
+    min-height: 700px;
     
 }
 #home h1{
-    font-size: 6.5rem;
+    font-size: 5.5rem;
 }
 #home p{
     font-size: 2rem;
@@ -33,7 +34,14 @@
     background-color: #6c757d;
 }
 @media (max-width: 745px) {
-
+    #home{
+     
+        min-height: 110%;
+    }
+    .blue-background{
+        min-height: 110%;
+        
+    }
     #home h1{
         font-size: 3.5rem;
         padding-top: 5rem;
