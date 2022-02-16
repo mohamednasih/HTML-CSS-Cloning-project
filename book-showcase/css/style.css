@@ -51,11 +51,31 @@
 .blue-color{
     color:rgba(50, 146, 166);
 }
-.card{
+#cards .card{
     border: 1px solid rgba(50, 146, 166);
 }
 .blue-card {
     color:white
+}
+
+/* about section */
+#about{
+    background-color: #F8F9FA;
+}
+.why p{
+    padding-bottom: 15x;
+    width: 60%;
+    border-bottom: 1px solid #ddd;
+}
+#about .fas{
+    background-color: #212529;
+    color: white;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: medium;
 }
 @media (max-width: 745px) {
     #home{
@@ -64,5 +84,14 @@
     .blue-shadow{
         min-height: 110%;
     }
+
+
+    /* abou section */
+    .why p{
+        padding-bottom: 15x;
+        width: 80%;
+        border-bottom: 1px solid #ddd;
+    }
+   
     
 }
