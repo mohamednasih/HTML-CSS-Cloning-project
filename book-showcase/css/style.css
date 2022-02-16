@@ -46,6 +46,17 @@
     padding-bottom: 0.8em;
     color: white;
 }
+
+
+.blue-color{
+    color:rgba(50, 146, 166);
+}
+.card{
+    border: 1px solid rgba(50, 146, 166);
+}
+.blue-card {
+    color:white
+}
 @media (max-width: 745px) {
     #home{
         min-height: 110%;
