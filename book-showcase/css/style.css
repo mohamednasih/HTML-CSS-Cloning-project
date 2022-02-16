@@ -77,7 +77,27 @@
     padding-bottom: 4px;
     font-size: medium;
 }
-@media (max-width: 745px) {
+
+/* Meet The authors  */
+.meetHeader{
+    border-bottom: 1px solid #ddd;
+}
+
+.authors img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    position: relative;
+    top: -2.2rem;
+}
+.socials .fab{
+    color: white;
+}
+.authors div :hover{
+    background-color:rgba(50, 146, 166);
+    color: white;
+}
+@media (max-width: 810px) {
     #home{
         min-height: 110%;
     }
@@ -92,6 +112,19 @@
         width: 80%;
         border-bottom: 1px solid #ddd;
     }
+
+    /* authors */
+    .authors img{
+        width: 9rem;
+        height: 9rem;
+        border-radius: 50%;
+        position: relative;
+        top: -2.2rem;
+    }
+    .authors .card{
+      padding-bottom: 40px;
+    }
+    
    
     
 }
