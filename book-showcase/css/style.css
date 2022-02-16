@@ -1,7 +1,6 @@
 .navbar{
     font-size: 1.5rem;
     opacity: 0.9;
-    
 }
 .navbar-brand{
     font-size: 1.4rem;
@@ -12,23 +11,22 @@
 }
 #home{
     background-image:url(../img/mountains.jpg);
-    min-height: 700px;
-    margin-top: 7rem;
-    
+    min-height: 100%;
+    margin-top: 7.4rem;
+}
+.blue-shadow{
+    min-height: 100%;
 }
 .blue-background{
     background-color:rgba(50, 146, 166, 0.8);
-    min-height: 700px;
-    
 }
-#home h1{
-    font-size: 5.5rem;
-}
+
 #home p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 #home a{
-    font-size: 2rem;
+    font-size: 1.2rem;
+    border: 1px solid #6c757d;
 }
 #home a:hover{
     background-color: #6c757d;
@@ -44,25 +42,16 @@
     padding-bottom: 0.8em;
 }
 #subscribe button{
-    background-color: #4893A2;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
     color: white;
 }
 @media (max-width: 745px) {
     #home{
-     
         min-height: 110%;
     }
-    .blue-background{
+    .blue-shadow{
         min-height: 110%;
-        
     }
-    #home h1{
-        font-size: 3.5rem;
-        padding-top: 5rem;
-    }
-    #home p{
-        font-size: 1.5rem;
-    }
+    
 }
